@@ -84,4 +84,25 @@ const menu = [
   
   export default menu;
   
- 
+  export const buttonsData = [
+    {
+      id: 1,
+      text: 'Hepsi',
+      data: 'all',
+    },
+    {
+      id: 2,
+      text: 'Kahvaltı',
+      data: 'breakfast',
+    },
+    {
+      id: 3,
+      text: 'Öğle Yemeği',
+      data: 'lunch',
+    },
+    {
+      id: 4,
+      text: 'İçecekler',
+      data: 'shakes',
+    },
+  ];
